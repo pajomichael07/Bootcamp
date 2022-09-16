@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>ISCP Employee Registration Form</title>
+    <meta charset="utf-8" />
+</head>
+
+<body>
+
+    <h1>ISCP Employee Registration Form</h1>
+    <img src="https://upload.wikimedia.org/wikipedia/en/c/c9/Seal_of_the_International_State_College_of_the_Philippines.png"
+        alt="ISCP" style="width: 300px" /><br />
+
+    <form>
+        <label id="first name">First name:</label>
+        <input type="text" name="first_name" placeholder="ex. Michael" /><br />
+        <label id="last name">Last name:</label>
+        <input type="text" name="last_name" placeholder="ex. Dela Cruz" /><br />
+
+        Password: <input type="password" name="password" placeholder="Must have at least 6 letters"><br />
+        Confirm password: <input type="password" name="password" placeholder="Please re-enter your Password" /><br />
+
+        SSS ID: <input type="number" placeholder="Ex. 12-3456789-0" /><br />
+        Pag-Ibig ID:<input type="number" placeholder="Ex. 1234-1234-1234" /><br />
+        PhilHealth ID:<input type="number" placeholder="Ex. 12-123456789-1" /><br />
+        Place of birth: <input type="text" placeholder="Ex. Tondo, Manila" /><br />
+
+        Birthdate: <input type="Date" /><br />
+        Email:<input type="text" placeholder="Ex. abc@yahoo.com" /><br />
+        Barangay:<input type="text" placeholder="Ex. Rosario" /><br />
+        City/Town:<input type="text" placeholder="Ex. Pasig" /><br />
+        Province:<input type="text" placeholder="Ex. Quezon Province" /><br />
+        Full Address:<input type="text" placeholder="Ex. 39-C Catalina Subdivision" /><br />
+        Contact number:<input type="number" placeholder="Ex. 09123456789" /><br />
+        Contact number:<input type="tel" placeholder="Ex. 888-8888" /><br />
+
+        Civil status:
+        <select name="dropdown">
+            <option value="none" Selected disabled>Select one...</option>
+            <option value="single">Single</option>
+            <option value="married">Married</option>
+            <option value="widowed">Widowed</option>
+            <option value="separated">Separated</option>
+        </select><br />
+        Gender: <input type="radio" name="gender" value="male">Male
+        <input type="radio" name="gender" value="female">Female
+        <input type="radio" name="gender" value="other">Other <br />
+
+        Upload image for profile: <input type="file" name="fileupload" accept="image/*" /><br />
+        Upload 2x2 picture: <input type="file" name="fileupload" accept="image/*" /><br />
+        Upload picture of government ID: <input type="file" name="fileupload" accept="image/*" /><br />
+
+        Mother's maiden name:<input type="text" placeholder="Ex. Nenita Cruz" /><br />
+        Mother's maiden name:<input type="text" placeholder="Ex. Arecio Reyes" /><br />
+        Date registered: <input type="Date" /><br />
+
+        Have you experienced any of the following in the last 30 days?<br />
+        <input type="checkbox" name="coughing" />Coughing<br />
+        <input type="checkbox" name="fever" />Fever<br />
+        <input type="checkbox" name="headache" />Headache<br />
+        <input type="checkbox" name="common cold" />Common cold<br />
+        <input type="checkbox" name="body ache" />Body Ache<br />
+        <input type="checkbox" name="sore throat" />Sore throat<br />
+        <input type="checkbox" name="tiredness" />Tiredness<br />
+        <input type="checkbox" name="loss of smell" />Loss of smell<br />
+
+        Give a short description about yourself: <br />
+        <textarea rows="5" cols="50" name="description" placeholder="enter description here..."></textarea><br />
+
+        <input type="submit" name="submit" value="submit" style="width: 350px; height: 50px" />
+    </form>
+
+    <body>
+
+</html>
